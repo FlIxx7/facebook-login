@@ -43,7 +43,7 @@ button {
 
 h2 {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 27px;
     line-height: 32px;
     color: #1C1e21;
     max-width: 500px;
@@ -144,8 +144,8 @@ form a:hover {
 p,
 p>a {
     color: #1C1E21;
-    font-size: 14px;
-    /* text-align: center;*/
+    font-size: 13.6px;
+    text-align: center;
     margin-top: 28px;
 }
 
