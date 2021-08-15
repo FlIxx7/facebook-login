@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook</title>
+    <link
+      rel="shortcut icon"
+      href="img/facebook-icon.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="intro">
+        <img class="logo" src="img/facebook.svg" alt="Logo Facebook" />
+        <h2>
+          O Facebook ajuda a você a se conectar e compartilhar com suas pessoas
+          que fazem parte da sua vida.
+        </h2>
+      </div>
+
+      <div>
+        <form action="">
+          <input type="text" placeholder="Email e telefone" />
+          <input type="password" placeholder="Senha" />
+          <button class="entrar" type="submit">Enviar</button>
+          <a href="#">Esqueceu sua senha?</a>
+          <div class="linha"></div>
+          <button class="criar-conta" type="submit">Criar nova conta</button>
+        </form>
+        <p>
+          <a href="#">Criar uma Página </a>para uma celebridade, banda ou
+          empresa.
+        </p>
+      </div>
+    </div>
+
+    <footer>Facebook &copy;&nbsp;<span id="ano"></span></footer>
+    <script>
+      const ano = document.getElementById("ano");
+      const anoAtual = new Date();
+
+      ano.innerHTML = anoAtual.getFullYear();
+    </script>
+  </body>
+</html>
